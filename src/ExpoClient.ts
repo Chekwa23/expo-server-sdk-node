@@ -8,7 +8,8 @@ import * as assert from 'assert';
 import { Agent } from 'http';
 import fetch, { Headers, Response as FetchResponse } from 'node-fetch';
 import * as promiseLimit from 'promise-limit';
-import * as zlib from 'zlib';
+// import * as zlib from 'zlib';
+import * as zlib from 'react-zlib-js';
 
 const BASE_URL = 'https://exp.host';
 const BASE_API_URL = `${BASE_URL}/--/api/v2`;
